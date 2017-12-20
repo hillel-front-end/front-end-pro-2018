@@ -49,19 +49,45 @@ console.log('lection_3');
 // -------------------------
 
 
-a = +prompt('a=');
-b = +prompt('b');
+// a = +prompt('a=');
+// b = +prompt('b');
 
-if ( !(a == b) && a < b ) {
-    for(i = a; i <= b; i++){
-        console.log(i*i);
-    }
-} else {
-    for(i = a; i >= b; i--){
-        k = i * i;
-        if (i < 0) {
-            k = -k;   
-        }
-        console.log(k);
+// if ( !(a == b) && a < b ) {
+//     for(i = a; i <= b; i++){
+//         console.log(i*i);
+//     }
+// } else {
+//     for(i = a; i >= b; i--){
+//         k = i * i;
+//         if (i < 0) {
+//             k = -k;   
+//         }
+//         console.log(k);
+//     }
+// }
+
+
+n = 10;
+m = 15;
+
+s = "&";
+space = "&nbsp;";
+fullLine = "";
+line = s;
+
+for(i = 1; i <= n; i++){
+    fullLine += s;
+
+    if(i <= n-2){
+        line += space;
     }
 }
+fullLine += "<br />";
+line += s+"<br />";
+
+
+document.write(fullLine);
+for(i=1; i<= m-2; i++){
+    document.write(line);
+}
+document.write(fullLine);
