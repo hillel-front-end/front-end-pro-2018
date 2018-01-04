@@ -48,7 +48,7 @@
 + Области видимости
 + Локальная и глобальная область
 
-## lection_7_functions_practice
+## lection_7_functions-practice
 
 ## lection_8_objects
 
@@ -69,58 +69,119 @@
 
 ## lection_10_git
 
+## lection_11_OOP
 
-<!-- Изменения контекста call(), apply(), bind()
-Одалживание методов
-Каррирование
-Прототипы и конструкторы
-ООП
-ООП в фунциональном стиле
-ООП в прототипном стиле
-Разрешения свойств в экземплярах
-Инкапсуляция
-Наследование
-Полиморфизм
-Глобальные обьекты Window, Document, Navigator, Location, 
-Регулярные выражения RegExp
-JS обращение в html
-html коллекция
-html элемент
-манипуляция свойствами и методами
-Обьект classlist, classname
-обьект style, getcomputedstyle
-События основы
-Манипуляция событиями, перезапись, удаление
-События углубленно, + события мыши, клавиатуры
-Валидация форм
-Валидация с помощью регулрных выражений и событий
-WebStorage
++ Прототипы и конструкторы
++ ООП
++ ООП в прототипном стиле
++ Разрешения свойств в экземплярах
++ Наследование
+
+## lection_12_OOP
+
++ Инкапсуляция
++ Полиморфизм
++ манипуляция свойствами и методами
+
+## lection_13_BOM_DOM
+
++ Глобальные обьекты Window, Document, Navigator, Location
++ JS обращение в html
++ html коллекция
++ html элемент
++ Обьекты classList, className
+
+## lection_14_DOM_events
+
++ обьект style, getcomputedstyle
++ События основы
++ Манипуляция событиями, перезапись, удаление
+
+## lection_15_DOM_events
+
++ События углубленно, + события мыши, клавиатуры
++ Drag'n'Drop native
++ Drag'n'Drop HTML5
+
+## lection_16_DOM-practice
++ methods DOM
++ work with DOM
++ Регулярные выражения RegExp
++ Валидация форм
++ Валидация с помощью регулрных выражений и событий
+
+## lection_17_functions_call_apply-practice
+
++ Изменения контекста call(), apply(), bind()
++ Одалживание методов
++ Каррирование
+
+## lection_18_Storage-practice
+
++ Cookie
++ WebStorage
++ JSON
+
+## lection_19_AJAX_WebServer
+
++ AJAX основы
++ GET/POST
++ NodeJS server
+
+## lection_20_Promises_async-await
+
++ Promises
++ async function
+
+## lection_21_ES6-Array_methods_ES5
+
++ Перебирающие методы ES5
++ var, let, const
++ destructuring assignment
++ arrow functions
+
+## lection_22_ES6_class
+
++ Классы
++ super и наследование
+
+## lection_23_ES6_modules
+
++ IIFE
++ Revealing Module Pattern
++ Formats and Loaders
+    + AMD Format
+    + CommonJS Format
+    + Exports
+    + ES2015 Modules
+
+## lection_24_getter-setter
+
++ Object.defineProperty
++ get/set
++ гетерры/сеттеры в функциях
+
+## lection_25_Patterns
++ Callback функции
++ Самоопределяемые функции
++ Анонимные функции
++ Немедленные функции
++ Шаблон Синглетон
++ Шаблон Фабрика
++ Шаблон итератор
++ Шаблон декоратор
++ Шаблон посредник
+
+
+
+<!-- 
 SVG
 Canvas
-AJAX основы
-GET/POST
 Литералы
 Собственные конструкторы
 Литералы массивов
 Обьекты обертки
 Пространство имен
-Callback функции
-Самоопределяемые функции
-Анонимные функции
-Немедленные функции
 Мемоизация
-Шаблон Синглетон
-Шаблон Фабрика
-Шаблон итератор
-Шаблон декоратор
-Шаблон посредник
-methods DOM
-work with DOM
-Перебирающие методы ES5
-Promises
-var, let
-Object.defineProperty
-get/set
-гетерры/сеттеры в функциях
 toString, valueOf
 статические и фабричные методы -->
