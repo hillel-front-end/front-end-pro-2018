@@ -98,8 +98,8 @@ function output2Array(a) {
         return console.error('a is not array');;
     }
 
-    for(i = 0; i < a.length; i++){
-        for(j = 0; j < a[i].length; j++){
+    for(var i = 0; i < a.length; i++){
+        for(var j = 0; j < a[i].length; j++){
             document.write(a[i][j] + " ");
         }
         document.write("<br />");
