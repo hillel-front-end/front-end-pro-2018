@@ -2,7 +2,7 @@
 
 ## lection_1_Intro
 
-+ основы, переменные
++ [основы, переменные](#anchorName)
 + %, конкатенация, унарные команды
 + smart operation
 + &&, ||, !
@@ -69,7 +69,7 @@
 
 ## lection_10_git
 
-## lection_11_OOP
+## lection_11_OOP {#anchorName}
 
 + Прототипы и конструкторы
 + ООП
