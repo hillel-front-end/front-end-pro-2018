@@ -38,25 +38,41 @@ window.onload = function() {
     window.elem = elem;
     // elem.className += " block";
 
-    elem.style.top = "250px";
-    elem.style.left = "100px";
-    elem.style.backgroundColor = "blue";
-    elem.style.transition = ".1s";
+    // elem.style.top = "250px";
+    // elem.style.left = "100px";
+    // elem.style.backgroundColor = "blue";
+    // elem.style.transition = ".1s";
 
-    elem.classList.add('block', 'p1', 'f2');
-    elem.classList.remove('three');
+    // elem.classList.add('block', 'p1', 'f2');
+    // elem.classList.remove('three');
 
-    var direction = 1;
+    // var direction = 1;
     // var step = 5;
-    setInterval(function(){
-        var top = parseInt(elem.style.top);
-        var step = step || Math.floor(Math.random()*10);
-        elem.style.top = top + (step*direction) + "px";
-    }, 200);
+    // setInterval(function(){
+    //     var top = parseInt(elem.style.top);
+    //     var step = step || Math.floor(Math.random()*10);
+    //     elem.style.top = top + (step*direction) + "px";
+    // }, 200);
 
-    setInterval(function(){
-        direction = -direction;
-    }, 2000)
+    // setInterval(function(){
+    //     direction = -direction;
+    // }, 2000)
+
+
+    var container = document.querySelector('.container');
+    var block = document.querySelector('.block');
+
+    function random() {
+        var width = container.clientWidth,
+            height = container.clientHeight,
+            maxX = width - block.clientWidth,
+            maxY = height - block.clientHeight;
+            
+        block.style.top = Math.floor(Math.random()*maxY) + 'px';
+        block.style.left = Math.floor(Math.random()*maxX) + 'px';
+    }
+
+    window.random = random;
 }
 
 
