@@ -37,5 +37,32 @@
         Element
     </div>
 
+
+
+    <div class="container">
+        <div class="block"></div>
+    </div>
+
+
+    <style>
+        .container {
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            border-radius: 15px;
+            margin: 20px;
+            position: relative;
+        }
+
+        .container > .block {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position: absolute;
+            transition: .5s;
+            left: 0;
+            top: 0;
+        }
+    </style>
 </body>
 </html>
