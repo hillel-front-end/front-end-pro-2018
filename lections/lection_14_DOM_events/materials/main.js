@@ -27,8 +27,7 @@ window.onload = function() {
 
 
 
-    var btns = document.querySelectorAll('.good button');
-    console.log(btns);
+
 
     // var count = 0;
     // btn.onclick = function(event) {
@@ -39,6 +38,9 @@ window.onload = function() {
     //     console.log(event);
     //     // this.style.backgroundColor = 'rgb('+ getRV() +', '+ getRV() +', '+ getRV() +')';
     // }
+
+    var btns = document.querySelectorAll('.good button');
+    console.log(btns);
 
     for(var i = 0; i < btns.length; i++){
         btns[i].addEventListener('click', onClickHandler);
