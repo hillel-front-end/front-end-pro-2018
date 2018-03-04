@@ -137,13 +137,14 @@
 
 + Перебирающие методы ES5
 + var, let, const
-+ destructuring assignment
++ генераторы
 + arrow functions
 
 ## lection_22_ES6_class
 
 + Классы
 + super и наследование
++ Деструктуризация
 
 ## lection_23_ES6_modules
 
