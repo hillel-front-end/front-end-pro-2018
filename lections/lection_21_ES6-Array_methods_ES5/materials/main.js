@@ -157,18 +157,17 @@ var arr = [1, 2, 3, 4, 5];
 
 
 
-function* gen() {
-   for(let arr of arguments){
-    for(let item of arr){
-        if (item > 0) {
-            yield item;
-        } else {
-            // yield console.error('item < 0');
-        }
-    }
-   }
-    
-}
+// function* gen() {
+//    for(let arr of arguments){
+//     for(let item of arr){
+//         if (item > 0) {
+//             yield item;
+//         } else {
+//             // yield console.error('item < 0');
+//         }
+//     }
+//    }
+// }
 
 // var foo = gen([7,-3,34],[5,-8,2],[9,-5,345]);
 
@@ -186,19 +185,28 @@ function* gen() {
 // foo.return()
 
 
-
-
-
-
-
-
-function* range (start, end, step) {
-    while (start <= end) {
-        yield start;
-        start += step;
+function* gen(arr, type){
+    // for(let item of arr){
+    //     if (typeof item == type) {
+    //         yield item;
+    //     }
+    // }
+    for(let item of arr.filter(item => typeof item == type)) {
+        yield item;
     }
 }
 
-for (let i of range(0, 10, 2)) {
-    console.log(i);
-}
+
+
+
+
+// function* range (start, end, step) {
+//     while (start <= end) {
+//         yield start;
+//         start += step;
+//     }
+// }
+
+// for (let i of range(0, 10, 2)) {
+//     console.log(i);
+// }
