@@ -1,4 +1,4 @@
-var player = require('./player');
+var player = require('./player.js');
 var scoreboard = require('./scoreboard.js');
 
 // private members
