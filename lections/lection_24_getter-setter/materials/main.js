@@ -66,7 +66,7 @@ Object.defineProperty(obj, name, {
 // obj.default = 150;
 
 // y = obj.sum + 20;
-console.log(obj);
+// console.log(obj);
 
 
 
@@ -113,21 +113,60 @@ console.log(obj);
 // console.log( info.line );
 
 
-var info = {
-    adress: {
-        city: '',
-        country: ''
-    }
+// var info = {
+//     adress: {
+//         city: '',
+//         country: ''
+//     }
+// }
+
+// Object.defineProperty(info, 'update', {
+//     set: function(value){
+//         if (Array.isArray(value)) {
+//             this.adress.city = value[0];
+//             this.adress.country = value[1];
+//         } else {
+//             this.adress = Object.assign(this.adress, value);
+//         }
+//     }
+// })
+
+
+
+
+// ----------------------
+
+
+var obj = {
+    x: 10,
+    y: 20
+}
+
+obj.toString = function (){
+    return `${this.x}, ${this.y}`;
+}
+
+obj.valueOf = function() {
+    return this.x + this.y;
 }
 
 
-Object.defineProperty(info, 'update', {
-    set: function(value){
-        if (Array.isArray(value)) {
-            this.adress.city = value[0];
-            this.adress.country = value[1];
-        } else {
-            this.adress = Object.assign(this.adress, value);
-        }
-    }
-})
+console.log( 10 + obj );
+
+// document.write(obj);
+
+
+function Human(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+Human.prototype.toString = function() {
+    return `{name: ${this.name}, age: ${this.age}}`;
+    // return this.age;
+}
+
+var p1 = new Human('Vasya', 20);
+var p2 = new Human('Petya', 30);
+
+document.write(p1 + ' <hr /> ' + p2);
