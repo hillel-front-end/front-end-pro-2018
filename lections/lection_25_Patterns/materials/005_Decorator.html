@@ -35,7 +35,9 @@
                     newObj[i] = overrides[i];
                 }
             }
-
+            
+            console.log(newObj);
+            
             return newObj;
         }
 
@@ -67,16 +69,18 @@
             }
         }
 
-
         // Использование объекта созданного с применением шаблона декоратор.
         var coffee = new Coffee(10);
 
-        coffee = coffee.add("milk");
-        coffee = coffee.add("sugar");
-        coffee = coffee.add("cinnamon");
+        console.log("Price - " + coffee.getPrice());
 
-        var price = coffee.getPrice();
-        document.write("Price - " + price);
+        coffee = coffee.add("milk");
+        // coffee = coffee.add("milk");
+        coffee = coffee.add("sugar");
+        // coffee = coffee.add("cinnamon");
+
+        // var price = coffee.getPrice();
+        console.log("Price - " + coffee.getPrice());
 
     </script>
 </body>
