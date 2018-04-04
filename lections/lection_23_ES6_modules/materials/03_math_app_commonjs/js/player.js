@@ -1,3 +1,5 @@
+var scoreboard = require('./scoreboard.js');
+
 // private members
 var playerName = '';
 
