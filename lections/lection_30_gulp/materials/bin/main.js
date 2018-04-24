@@ -1,0 +1,1 @@
+console.log("Petya hello"),console.log("!)!)!))!)!)!)fdbdfgdfg!)!"),console.log("101");var ಠ_ಠ878="Vasya";console.log(ಠ_ಠ878+"Petya");

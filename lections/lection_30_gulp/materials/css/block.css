@@ -1,0 +1,5 @@
+.block {
+  color: aqua;
+  background-color: red; }
+  .block > .element {
+    color: black; }
