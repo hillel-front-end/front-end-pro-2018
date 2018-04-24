@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./app/css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <span class="header__title">
+                Store
+            </span>
+        </div>
+        <div class="content">
+            <div class="content__left-col">
+                <div class="products">
+                    <div id="products__wrapper" class="products__wrapper"></div>
+                    <div class="products__patterns">
+                        <div id="product" class="product pattern">
+                            <div class="product__title">
+                                Title
+                            </div>
+                            <div class="product__img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="product__action">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content__right-col cart-container hidden">
+                <div class="cart">
+                    <div class="cart__title">
+                        Cart
+                    </div>
+                    <div class="cart__list">
+                        <div id="records" class="cart__records"></div>
+                        <div class="records__patterns">
+
+                            <div id="record" class="record pattern">
+                                <span class="record__title"></span>
+                                <hr />
+                                <span class="record__size"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cart__order">
+                        <button>
+                            Order
+                        </button>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./app/js/storageData.js"></script>
+    <script src="./app/js/render.js"></script>
+    <script src="./app/js/app.js"></script>
+</body>
+</html>
